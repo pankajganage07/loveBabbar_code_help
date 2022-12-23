@@ -6,7 +6,7 @@ void bubble_sort(int arr[],int n){
     //n-1 round for n elements
     for(int i = 1; i<n; i++){
         //comparisions
-        for(int j = 0; j<n-1; j++){
+        for(int j = 0; j<n-i; j++){
             if(arr[j]>arr[j+1]){
                 swap(arr[j],arr[j+1]);
                 //swap function is from bits/stdc++.h header file so it is call by reference
